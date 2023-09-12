@@ -4,18 +4,38 @@ import WorkItem from './WorkItem'
 
 const data = [
     {
-        year: 2015,
-        title: 'Supervisor of production',
-        duration: '7 years',
-        details: 'I was working as an Industrial Enginieer, related to the producction area'
+        year: '2022',
+        title: 'Frontend Developer',
+        duration: '1 year',
+        details: 'Executed and managed personal web projects with a focus on ecommerce o projects, static websites, blogs, simple web applications.'
+       
     },
     {
-        year: 2022,
-        title: 'Frontend developer',
+        year: '2020',
+        title: 'Process Engineer',
+        duration: '2 years',
+        details: 'Process Optimization through Software: Use process management software such as Six Sigma or Lean to identify areas for improvement in industrial operations and then implement technological solutions to automate, control, and enhance these processes.'
+    },
+    {
+        year: '2019',
+        title: 'Quality Engineer',
         duration: '1 year',
-        details: 'I have been working on my own projects'
+        details: 'Data Analysis and Big Data: Utilize data analysis tools to collect, analyze, and visualize production, quality, and efficiency data. This can help identify patterns, trends, and improvement opportunities.'
+    },
+    {
+        year: '2017',
+        title: 'Process Engineer',
+        duration: '2 years',
+        details: 'Internet of Things (IoT): Implementation of sensors and connected devices to monitor and control machines, processes, and industrial assets in real-time, enabling more efficient and predictive management.'
+    },
+    {
+        year: '2014',
+        title: 'Project Manager assistant Engineer',
+        duration: '3 years',
+        details: 'Develop project management skills to lead the successful implementation of technological solutions in industrial settings, ensuring that objectives and timelines are met.'
     }
 ]
+
 const Work = () => {
   return (
     <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
